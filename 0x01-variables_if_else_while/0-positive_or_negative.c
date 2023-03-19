@@ -1,18 +1,19 @@
+Almost out of storage … If you run out, you can't create or edit files, send or receive email on Gmail, or back up to Google Photos.
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
 /**
- * MAIN - to check if a number is positive, negative or zero.
- * 
- * Return: Return 0
+ * main - Determines if a number is positive, negative or zero.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 1;
+	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
