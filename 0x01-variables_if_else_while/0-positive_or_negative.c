@@ -8,6 +8,7 @@ Almost out of storage … If you run out, you can't create or edit files, send o
  *
  * Return: Always 0 (Success)
  */
+	
 int main(void)
 {
 	int n;
