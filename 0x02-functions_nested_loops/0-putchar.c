@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * MAIN: print putchare
+ * Main - check my code
+ *
  * Return: always 0
  */
 
