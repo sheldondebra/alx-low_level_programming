@@ -1,9 +1,10 @@
 #include "main.h"
 
+
 /**
- * Main - check my code
+ * main - check the code
  *
- * Return: always 0
+ * Return: Always 0.
  */
 
 int main(void)
@@ -18,5 +19,5 @@ int main(void)
 	_putchar('r');
 	_putchar('\n');
 
-	return(0);
+	return (0);
 }
