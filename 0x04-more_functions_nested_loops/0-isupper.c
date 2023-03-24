@@ -5,7 +5,7 @@
  * @c: The input
  */
 
-int _isupper(int c)
+int isupper(int c)
 {
         if (c >= 'A' && c <= 'z')
         {
