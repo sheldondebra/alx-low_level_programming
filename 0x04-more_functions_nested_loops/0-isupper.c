@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _0-isupper - Entry point
+ * 0-isupper - Entry point
  * Return: Always 0 success
  * @c: The input
  */
 
-int _isupper (int c)
+int _isupper(int c)
 {
         if (c >= 'A' && c <= 'z')
         {
