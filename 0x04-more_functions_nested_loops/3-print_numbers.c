@@ -1,17 +1,19 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * print_numbers - Entry point
- * @i: is a variable
+ * print_numbers - prints numbers from 0 to 9 without using standard functions
+ *
+ *
  * Return: void
  */
 void print_numbers(void)
 {
-	int i;
+	int c = 48;
 
-	for (i = 0; i < 10 ; i++)
+	while (c < 58)
 	{
-		_putchar(i + '0');
+		_putchar(c);
+		c++;
 	}
 	_putchar('\n');
 }
